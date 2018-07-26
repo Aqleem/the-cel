@@ -1,0 +1,31 @@
+.celebriyt-img{
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px 8px rgba(0,0,0,0.75);
+
+background-size: cover;
+background-position: center;
+margin: 16px;
+min-width: 200px;
+
+
+
+}
+.celeb1{
+
+/*flex-wrap: wrap;*/
+    display: flex;
+    justify-content:center;
+    overflow-x:scroll; 
+    width: 100%;
+}
+div > .namepara{
+    background-color: green;
+    color: white;
+    /*position: absolute;
+    justify-content: center;
+    top: 20px;
+    left: 20px;*/
+}
